@@ -9,7 +9,7 @@ class hlaminer < Formula
   sha1 "c2eeb9310f228a3937b2a4767df6b33e86eb70bd"
 
   def install
-    bin.install "HLAminer.pl","formatdb","blastall","HPRArnaseq_classI-II.sh","HPRArnaseq_classI.sh","HPRAwgs_classI-II.sh","HPRAwgs_classI.sh","HPTASRrnaseq_classI-II.sh","HPTASRrnaseq_classI.sh","HPTASRwgs_classI-II.sh","HPTASRwgs_classI.sh","ncbiBlastConfig.tx","parseXMLblast.p","TASR
+    bin.install "HLAminer.pl","formatdb","blastall","HPRArnaseq_classI-II.sh","HPRArnaseq_classI.sh","HPRAwgs_classI-II.sh","HPRAwgs_classI.sh","HPTASRrnaseq_classI-II.sh","HPTASRrnaseq_classI.sh","HPTASRwgs_classI-II.sh","HPTASRwgs_classI.sh","ncbiBlastConfig.tx","parseXMLblast.p","TASR"
     doc.install "HLAminer_readme.txt", "TASR_readme.txt"
     prefix.install "docs", "bin","database","test-demo"
   end
