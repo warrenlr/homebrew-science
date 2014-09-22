@@ -6,7 +6,7 @@ class TASR < Formula
   #tag "PLOSone"
   url "http://www.bcgsc.ca/platform/bioinfo/software/tasr/releases/1.5.1/tasr_v1.5.1-tar.gz"
   version "1.5.1"
-  sha1 "5df39ea10a66ad5df1456b82e6ad3c050c10560e"
+  sha1 ""
 
   def install
     bin.install "TASR"
