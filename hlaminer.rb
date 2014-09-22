@@ -6,7 +6,7 @@ class hlaminer < Formula
   #tag "Bioinformatics"
   url "http://www.bcgsc.ca/platform/bioinfo/software/hlaminer/releases/1.1/HLAminer.tar.gz"
   version "1.1.0"
-  sha1 "b5d01c6621972c116ed041fcc7c4e1ee"
+  sha1 "c2eeb9310f228a3937b2a4767df6b33e86eb70bd"
 
   def install
     bin.install "HLAminer.pl","formatdb","blastall","HPRArnaseq_classI-II.sh","HPRArnaseq_classI.sh","HPRAwgs_classI-II.sh","HPRAwgs_classI.sh","HPTASRrnaseq_classI-II.sh","HPTASRrnaseq_classI.sh","HPTASRwgs_classI-II.sh","HPTASRwgs_classI.sh","ncbiBlastConfig.tx","parseXMLblast.p","TASR
