@@ -1,6 +1,6 @@
 require "formula"
 
-class hlaminer < Formula
+class Hlaminer < Formula
   homepage "http://www.bcgsc.ca/platform/bioinfo/software/hlaminer"
   #doi "10.1186/gm396"
   #tag "bioinformatics"
@@ -15,6 +15,6 @@ class hlaminer < Formula
   end
 
   test do
-    system "hlaminer |grep hlaminer"
+    system "HLAminer.pl |grep HLAminer.pl"
   end
 end
