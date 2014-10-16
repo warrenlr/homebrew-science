@@ -6,7 +6,7 @@ class Ssake < Formula
   #tag "bioinformatics"
   url "http://www.bcgsc.ca/platform/bioinfo/software/ssake/releases/3.8.2/ssake_v3-8-2.tar.gz"
   version "3.8.2"
-  sha1 "5df39ea10a66ad5df1456b82e6ad3c050c10560e"
+  sha1 "b9e2090198ec1b51eeb984088980f07eba1e1f4a"
 
   def install
     bin.install "SSAKE"
