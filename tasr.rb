@@ -17,8 +17,9 @@ class Tasr < Formula
 
   def install
     bin.install "TASR"
-    doc.install "TASR.readme"
-    prefix.install "test", "tools"
+    bin.install "TASR-Bloom"
+    doc.install "TASR-readme.txt"
+    prefix.install "test", "tools","lib"
   end
 
   test do
