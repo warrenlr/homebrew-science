@@ -17,7 +17,7 @@ class Ssake < Formula
 
   def install
     bin.install "SSAKE"
-    doc.install "SSAKE.pdf", "SSAKE.readme"
+    doc.install "SSAKE-readme.pdf", "SSAKE-readme.txt"
     prefix.install "test", "tools"
   end
 
