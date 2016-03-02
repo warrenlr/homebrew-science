@@ -3,20 +3,21 @@ class LinksScaffolder < Formula
   # doi "10.1186/s13742-015-0076-3"
   # tag "bioinformatics"
 
-  url "http://www.bcgsc.ca/platform/bioinfo/software/links/releases/1.5.1/links_v1-5-1.tar.gz"
-  version "1.5.1"
-  sha256 "3f4dbcdd0fc6735ae316d7c379b038a3fada16233a120b2d6f2220d51a24a908"
+  url "http://www.bcgsc.ca/platform/bioinfo/software/links/releases/1.6.1/links_v1-6-1.tar.gz"
+  version "1.6.1"
+  sha256 "9c304961a04a746644a0253b710793680ef6fb9839f0b1cefaac75c3b4c6b65c"
 
-  depends_on "Bloom::Faster" => :perl
+  depends_on "BloomFilter" => :perl
 
   def install
     bin.install "LINKS"
     chmod 0644, "LINKS-readme.txt"
     doc.install "LINKS-readme.txt"
-    chmod 0644, "LINKS-readme.pdf"
-    doc.install "LINKS-readme.pdf"
+    chmod 0644, "LINKS-readme_v1-6.pdf"
+    doc.install "LINKS-readme_v1-6.pdf"
     prefix.install "test"
     prefix.install "tools"
+    prefix.install "lib"
   end
 
   test do
