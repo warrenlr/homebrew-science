@@ -1,7 +1,7 @@
-class LinksScaffolder < Formula
+class Links < Formula
   homepage "http://www.bcgsc.ca/platform/bioinfo/software/links"
-  # doi "10.1101/016519"
-  # tag "bioinformatics"
+  #doi "10.1101/016519"
+  #tag "bioinformatics"
 
   url "http://www.bcgsc.ca/platform/bioinfo/software/links/releases/1.1/links_v1-1.tar.gz"
   version "1.1"
@@ -9,12 +9,11 @@ class LinksScaffolder < Formula
 
   def install
     bin.install "LINKS"
-    chmod 0644, "LINKS-readme.txt"
     doc.install "LINKS-readme.txt"
     prefix.install "test"
   end
 
   test do
-    assert_match "LINKS", shell_output("#{bin}/LINKS")
+    system "LINKS |grep LINKS"
   end
 end
