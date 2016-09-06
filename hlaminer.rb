@@ -4,13 +4,14 @@ class Hlaminer < Formula
   # doi "10.1186/gm396"
   # tag "bioinformatics"
 
-  url "http://www.bcgsc.ca/platform/bioinfo/software/hlaminer/releases/1.1/HLAminer.tar.gz"
-  version "1.1.0"
-  sha256 "2c3e4458215f06764f58e8f3d95fb8e3a47d2a19152478d047453944c8cb84c3"
+  url "http://www.bcgsc.ca/platform/bioinfo/software/hlaminer/releases/1.3.1/HLAminer_v1-3-1.tar.gz"
+  version "1.3.0"
+  sha256 "a009575d80484c7c1dd188f29c21419ccca3ff7feea31128d0906cfc944959fe"
   revision 1
 
   bottle do
     cellar :any_skip_relocation
+    ###need to update those:
     sha256 "724c4478e180fc6f630cf234360801c04d0a0f7804a7001ec1eb2a39ef9bb4d6" => :el_capitan
     sha256 "cc1cbaff172fc42207a12641c04d25d2e24e958b6b33452d67baafe889e58df0" => :yosemite
     sha256 "2f8c2b6f80d300c2d9987712a55b2d1c8d8f83af01715a74f6cc81b53997c1df" => :mavericks
@@ -29,6 +30,6 @@ class Hlaminer < Formula
   end
 
   test do
-    assert_match "HLAminer.pl [v1.1]", shell_output("#{bin}/HLAminer.pl", 255)
+    assert_match "HLAminer.pl [v1.3]", shell_output("#{bin}/HLAminer.pl", 255)
   end
 end
