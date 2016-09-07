@@ -3,9 +3,9 @@ class Tasr < Formula
   # doi "10.1371/journal.pone.0019816"
   # tag "bioinformatics"
 
-  url "http://www.bcgsc.ca/platform/bioinfo/software/tasr/releases/1.6/tasr_v1-6.tar.gz"
-  version "1.6.0"
-  sha256 "efb39416d28edabba1d5af5dd9f68fa9e41619e9d5f5615ca6d92b99a2997f1d"
+  url "http://www.bcgsc.ca/platform/bioinfo/software/tasr/releases/1.6.1/tasr_v1-6-1.tar.gz"
+  version "1.6.1"
+  sha256 "f8f96b5d873629a7f907feb422e4f5c4eb99aa8610c482c2d606740159f583f3"
 
   bottle do
     cellar :any
