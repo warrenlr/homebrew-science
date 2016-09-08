@@ -7,7 +7,7 @@ class Hlaminer < Formula
   url "http://www.bcgsc.ca/platform/bioinfo/software/hlaminer/releases/1.3.1/HLAminer_v1-3-1.tar.gz"
   version "1.3.0"
   sha256 "a009575d80484c7c1dd188f29c21419ccca3ff7feea31128d0906cfc944959fe"
-  revision 1
+  
 
   bottle do
     cellar :any_skip_relocation
